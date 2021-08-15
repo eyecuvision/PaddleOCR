@@ -21,7 +21,7 @@ import math
 
 import numpy as np
 from itertools import groupby
-from skimage.morphology._skeletonize import thin
+from cv2.ximgproc import thinning as thin
 
 
 def get_dict(character_dict_path):
